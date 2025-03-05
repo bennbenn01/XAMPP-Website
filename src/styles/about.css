@@ -1,0 +1,29 @@
+.about-body{
+    background-color: rgb(254, 241, 0);   
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    width: 400px;
+    height: 100%; 
+    gap: 10px;
+}
+
+.about-title{
+    font-family: sans-serif;
+    text-align: center;
+    cursor: default;
+}
+
+.about-text{
+    font-family: sans-serif;
+    text-align: justify;
+    cursor: default;
+}
