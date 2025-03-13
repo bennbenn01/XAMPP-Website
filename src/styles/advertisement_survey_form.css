@@ -1,0 +1,59 @@
+.advertisement-survey-form-body{
+    background-color: rgb(254, 241, 0);
+}
+
+.advertisement-survey-form-video{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+.advertisement-survey-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    width: 400px;
+    height: 100%; 
+    gap: 10px;
+}
+
+.advertisement-survey-form-title{
+    font-family: sans-serif;
+    text-align: center;
+    cursor: default;
+}
+
+.advertisement-survey-form-input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.advertisement-survey-form-text{
+    cursor: default;
+    width: 100%;
+}
+
+.advetisement-survy-form-checkbox-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.advertisement-survey-form-button{
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
